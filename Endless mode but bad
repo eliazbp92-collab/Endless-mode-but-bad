@@ -402,8 +402,9 @@ end)()
 -- Rebound Entity
 coroutine.wrap(function()
     while true do
-        wait(math.random(375,100))
+        wait(math.random(250,100))
         pcall(function()
+
 local rng = Random.new()
 local ai = rng:NextInteger(35, 75)
 
