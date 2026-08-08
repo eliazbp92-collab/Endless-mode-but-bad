@@ -1,0 +1,24 @@
+-- No Overseer and Normal Eyes Combo
+workspace.ChildAdded:Connect(function(seek)
+	if seek.Name == "Eyes" then
+		wait(0.6)
+        if workspace:FindFirstChild("Overseer") then
+        workspace.Overseer:Destroy()
+        end
+	end
+end)
+
+--workspace.Ambience_Seek.SoundId = GetGitSound("https://github.com/check78/worldcuuuup/blob/main/EndlessSeekChase.mp3?raw=true","EndlessSeekChase")
+--workspace.Ambience_Seek.Volume = 5
+    local roast = Instance.new("Sound")
+    roast.Parent = workspace
+    roast.Name = "Omg"
+    roast.SoundId = "rbxassetid://4835664238"
+    roast.Volume = 1
+    roast.Pitch = 1
+    roast.TimePosition = 0.2
+    roast:Play()
+local Sounds = Instance.new("Folder")
+Sounds.Name = "Mimic"
+Sounds.Parent = workspace
+--loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/Endless-Doors-In-Doors/main/TextChatService.lua"))()
