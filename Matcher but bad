@@ -29,7 +29,7 @@ local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyou
 local entity = Spawner:Create({
 	Entity = {
 		Name = "Matcher",
-		Asset = "rbxassetid://13421185702",
+		Asset = "rbxassetid://13421178278",
 		HeightOffset = 0.5
 	},
 	Lights = {
