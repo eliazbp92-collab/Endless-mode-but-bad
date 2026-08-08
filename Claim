@@ -2,7 +2,7 @@ game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 local damages = true
 local tweenservice = game:GetService("TweenService")
 
-local ClaimModel = "rbxassetid://13421252942"
+local ClaimModel = "game:GetObjects(rbxassetid://11403215085)[1]"
 
 function getgithubmodeL(url)
 	if not (writefile and getcustomasset and request) then return nil end
