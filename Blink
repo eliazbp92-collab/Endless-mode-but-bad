@@ -4,7 +4,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Workspace = game:GetService("Workspace")
 
 local LocalPlayer = Players.LocalPlayer
-local BlinkModel = "rbxassetid://12621816107"
+local BlinkModel = "rbxassetid://12257456925"
 local Close = nil
 
 local gameData = ReplicatedStorage:WaitForChild("GameData")
