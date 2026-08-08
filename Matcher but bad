@@ -21,7 +21,7 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/DripC
 -- Create entity
 local entity = Creator.createEntity({
     CustomName = "Matcher",
-    Model = "rbxassetid://13421178278", -- ← ЗАМЕНЕНО ТУТ
+    Model = "rbxassetid://13421077402", -- ← ЗАМЕНЕНО ТУТ
     Speed = 130,
     DelayTime = 2,
     HeightOffset = 0,
