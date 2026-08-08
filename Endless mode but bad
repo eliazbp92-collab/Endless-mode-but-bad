@@ -1,4 +1,4 @@
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Mode made by Rebound", (true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Mode made by Rebound", true)
 
 
 local gameData = game:GetService("ReplicatedStorage"):WaitForChild("GameData")
