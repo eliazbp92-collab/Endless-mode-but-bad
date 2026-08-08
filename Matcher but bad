@@ -21,7 +21,7 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/DripC
 
 local entity = Creator.createEntity({
     CustomName = "Matcher", -- Custom name of your entity
-    Model = "rbxassetid://13421178278", -- Can be GitHub file or rbxassetid
+    Model = "rbxassetid://13421077402", -- Can be GitHub file or rbxassetid
     Speed = 150, -- Percentage, 100 = default Rush speed
     DelayTime = 0.8, -- Time before starting cycles (seconds)
     HeightOffset = 0,
