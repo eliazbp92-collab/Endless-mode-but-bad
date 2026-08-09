@@ -29,7 +29,7 @@ local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyou
 local entity = Spawner:Create({
 	Entity = {
 		Name = "Matcher",
-		Asset = "rbxassetid://13421077402",
+		Asset = "https://github.com/eliazbp92-collab/Endless-mode-but-bad/raw/main/Matcher%20But%20Bad.rbxm",
 		HeightOffset = 0.5
 	},
 	Lights = {
